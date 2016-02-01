@@ -1,0 +1,265 @@
+/*
+Project Name: Relaxr Landing Page Template
+Client: Relaxr
+Author: Emiko Hunt 
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+.container {
+	background: url(../images/header_bg.jpg);
+  background-size: cover;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	float:left;
+	padding-bottom: 200px;
+	min-width:100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	color: white;
+	font-weight: 800;
+	font-size: 24px;
+	text-indent: 100px;
+}
+
+h2 {
+	color: white;
+	font-weight: normal;
+	font: 24px "Open Sans", sans-serif;
+	text-align: center;
+	margin-top: 2em;
+}
+
+h3 {
+	font-weight: 600;
+	font: 20px "Open Sans", sans-serif;
+	color: #033048;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+
+.signupnow {
+	background-color: #033048;
+  width: 300px;
+  padding: 15px 30px 15px 30px;
+	text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: 600;
+	color: white; 
+}
+
+h6 {
+	font-weight: bold;
+	font: 24px "Open Sans", sans-serif;
+	color: white;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.body {
+	font-size: 13px;
+	font-weight: 300;
+	color: #033048;
+}
+
+.heading {
+	font-size: 20px;
+	font-weight: 600;
+	color: #033048;
+}
+
+ul {
+	list-style: disc;
+	font-size: 13px;
+	font-weight: 300;
+	color: #033048;
+	margin-left: 10%;
+	line-height: 200%;
+}
+
+.buttonone {
+	font-size: 14px;
+	color: #013048;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	background-color: #f9e42e;
+  width: 300px;
+	text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+	margin-top: 70px;
+}
+
+.benefits {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	min-width:100%;
+	margin-left: 50px;
+  margin-right: 100px;
+	text-align: left;
+	clear: both;
+}
+
+p {
+	text-align: left;
+	padding-left: 50px;
+	font: 18px "Open Sans", sans-serif;
+	color: #033048;
+	margin-right: 100px;
+}
+
+.quotesection {
+	background: url(../images/testimonial_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	text-align: center;
+	padding:60px 0;
+	min-width:100%;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+	
+}
+
+q {
+	font: 18px "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: 200;
+	color: white; 
+	text-align: center;
+}
+
+.author {
+	font-size: 18px;
+	font-weight: 600;
+	color: white; 
+	text-align: center;
+}
+
+blockquote {
+	font-size: 18px;
+	font-weight: 300italic;
+	font-style: italic;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+}
+
+.buttonsection {
+	background-color: #f9e42e;
+	text-align: center;
+	vertical-align: middle;
+	padding: 18px 0 18px 0;
+	min-width:100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #121212;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.footerlogo {
+	text-align: center;
+	color: #f9e42e;
+	clear: both;
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 50px;
+}
+
+.socialicontwitter {
+	display: inline-block;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.socialiconfacebook {
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+	padding padding-left: 8px;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-style: bold;
+	font: 9px "Open Sans", sans-serif;
+	text-decoration: none;
+	clear: both;
+}
+
+
